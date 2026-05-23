@@ -273,14 +273,16 @@ volumes:
   db_data:
 EOF
 ```
+
 Содержимое db/init.sql:
 
-``bash
+```bash
 CREATE TABLE IF NOT EXISTS tasks (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(255) NOT NULL,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+
 ```
 
 2. Запустите связку web-приложение - БД.
