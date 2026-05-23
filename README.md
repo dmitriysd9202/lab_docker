@@ -288,7 +288,8 @@ CREATE TABLE IF NOT EXISTS tasks (
 2. Запустите связку web-приложение - БД.
 
 ```bash
-docker compose up --build```
+docker compose up --build
+```
 
 Вывод (сокращённо):
 
