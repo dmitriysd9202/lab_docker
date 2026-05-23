@@ -274,6 +274,7 @@ volumes:
 EOF
 ```
 Содержимое db/init.sql:
+
 ``bash
 CREATE TABLE IF NOT EXISTS tasks (
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -285,9 +286,10 @@ CREATE TABLE IF NOT EXISTS tasks (
 2. Запустите связку web-приложение - БД.
 
 ```bash
-docker compose up --build
-```
+docker compose up --build```
+
 Вывод (сокращённо):
+
 ```bash
 [+] Building 1.0s (12/12) FINISHED
 ...
