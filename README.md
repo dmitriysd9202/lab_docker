@@ -318,3 +318,5 @@ lab_docker_app | * Running on http://0.0.0.0:5000
 Результат:
 Приложение успешно читает и записывает данные в MySQL. Связка работает корректно.
 
+Полный вывод команд:
+[`dockervivod.txt`](https://github.com/dmitriysd9202/lab_docker/blob/main/dockervivod.txt).
